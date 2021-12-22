@@ -9,6 +9,14 @@ import Foundation
 
 class Warrior: Hero {
     
+    override func getDamage() -> Int {
+        return damage
+    }
+    
+    override func getTypeAbility() -> String {
+        return typeAbility
+    }
+    
     override func applySuperAbility(superAbilityType: String) {
         print("Warrior применил суперспособность Critical Damage")
     }

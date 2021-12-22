@@ -9,5 +9,9 @@ import Foundation
 
 protocol  HavingSuperAbility {
     
+    func makeDamage() -> Int
+    
+    func makeTypeAbility () -> String
+    
    func applySuperAbility(superAbilityType : String)
 }

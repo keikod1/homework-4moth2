@@ -8,6 +8,16 @@
 import Foundation
 
 class Medic: Hero {
+    
+    
+    override func getDamage() -> Int {
+        return damage
+    }
+    
+    override func getTypeAbility() -> String {
+        return typeAbility
+    }
+    
     override func applySuperAbility(superAbilityType: String) {
         print("Medic применил суперспособность enliven")
     }
